@@ -19,3 +19,20 @@ var nombre = usuario.nombre;
 var edad = usuario.edad;
 var plataforma = usuario.plataforma;
 console.log(nombre, edad, plataforma);
+
+//SPREAD OPERATOR
+
+let person = {name: 'Teo', age: 35};
+let country = 'MX';
+let data = {...person, country};
+console.log(data);
+/* let data = {id: 1, ...person, country};//2-podemos jugar y agregar nuevos valores de la misma forma.
+console.log(data); */
+
+//REST  :como hacerlo en una funcion y como pa sar parametros con este concepto de REST perameters.
+function sum(num, ...values) {
+    console.log(values);
+    console.log(num + values[0]);
+    return num + values[0];
+}
+sum(1, 1, 2, 3);

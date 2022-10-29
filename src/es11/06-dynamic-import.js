@@ -1,3 +1,4 @@
+//ES11: dynamic Import      clase 30/35
 //codigo de clase:
 
 /* Ejemplo utilizando importación dinámica
@@ -16,10 +17,12 @@ button.addEventListener("click", async function () {
 
 /* aqui después del click del eventListener le indicamos una funcion anonima con async 
 para que que importe la funcion en el modulo y la llame, y muestre en pantalla */
+
+
+
 //notas en la clase: algunas cosas de aqui no las probe
-/* ES11: dynamic Import      clase 30/35
 
-
+/* 
 La expresión import() permite manejar módulos dinámicamente, ya que la sintaxis de 
 ECMAScript import ... from ... no lo permite.
 
